@@ -17,4 +17,4 @@ $lang['freshbooks_api_'] = '';
 
 
 /* End of file freshbooks_api_lang.php */
-/* Location: ./system/application/language/english/freshbooks_api_lang.php */
+/* Location: ./application/language/english/freshbooks_api_lang.php */

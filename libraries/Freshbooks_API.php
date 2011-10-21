@@ -2,30 +2,31 @@
 /**
  * CodeIgniter Freshbooks API
  *
- * A Freshbooks API Library for CodeIgniter
+ * A Freshbooks API Library for CodeIgniter.
  *
  * @package		CodeIgniter Freshbooks API
  * @author		LMB^Box (Thomas Montague)
- * @copyright	Copyright (c) 2009 - 2010, LMB^Box
+ * @copyright	Copyright (c) 2009 - 2011, LMB^Box
  * @license		GNU Lesser General Public License (http://www.gnu.org/copyleft/lgpl.html)
  * @link		http://lmbbox.com/projects/ci-freshbooks-api/
- * @since		Version 0.1
+ * @since		Version 0.0.1
  * @filesource
  */
 
 // ------------------------------------------------------------------------
 
 /**
- * Freshbooks API Class
+ * CodeIgniter Freshbooks API Class
  *
  * @package		CodeIgniter Freshbooks API
  * @subpackage	Libraries
- * @category	Freshbooks API
+ * @category	Libraries
  * @author		LMB^Box (Thomas Montague)
  * @link		http://codeigniter.lmbbox.com/user_guide/libraries/freshbooks_api.html
  */
-class Freshbooks_API {
+class CI_Freshbooks_API {
 	
+	const VERSION						= '0.1.0';
 	const API_URL						= 'https://%s.freshbooks.com/api/2.1/xml-in';
 	const REQUEST_FORMAT_CURL			= 'curl';
 	const REQUEST_FORMAT_FSOCK			= 'fsock';
@@ -2240,4 +2241,4 @@ class Freshbooks_API {
 }
 
 /* End of file Freshbooks_API.php */
-/* Location: ./system/application/libraries/Freshbooks_API.php */
+/* Location: ./application/libraries/Freshbooks_API.php */
